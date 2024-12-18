@@ -1,6 +1,6 @@
 import "./card-products.css"
 
-export const CardProducts = ({title, price, image, category, description}) => {
+export const CardProducts = ({title, price, image, category, description, holaaa}) => {
     return (
         <div className="card-product" aria-label="card-products">
             <div className="card-image-container">
@@ -13,6 +13,7 @@ export const CardProducts = ({title, price, image, category, description}) => {
                 </div>
                 <div>
                     <p>s/ {price}</p>
+                    <p>{holaaa}</p>
                 </div>
                 <p className="card-product-discription">{description}</p>
             </article>
