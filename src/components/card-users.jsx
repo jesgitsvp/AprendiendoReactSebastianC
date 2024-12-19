@@ -12,9 +12,9 @@ export const CardUsers = ({name, lastname, image, age, email, phone,gender}) => 
                     <span className="card-user-badged">{gender}</span>
                 </div>
                 <div>
-                    <p>{age}</p>
-                    <p>{email}</p>
-                    <p>{phone}</p>
+                    <p>Edad : {age}</p>
+                    <p>Correo : {email}</p>
+                    <p>Teléfono : {phone}</p>
                 </div>
             </article>
         </div>

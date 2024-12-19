@@ -14,7 +14,7 @@ export const Users = () => {
     
         return (
             <div className='container'>
-                <h1 style={{ display : "flex", alignItems : "center", justifyContent : "center", paddingBottom : "20px"}}>Usuarios</h1>
+                <h1 style={{ display : "flex", alignItems : "center", justifyContent : "center", paddingBottom : "20px"}}>USUARIOS</h1>
                 <div className='user-container'>
                     {data.map((item) => (
                         <CardUsers
