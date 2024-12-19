@@ -4,7 +4,7 @@ import { CardProducts } from '../components/card-products'
 import { useProducts } from '../hooks/useProducts'
 import './home.css'
 
-export const Home = () => {
+export const Products = () => {
 
         const {data, loading, error } = useProducts()
     
